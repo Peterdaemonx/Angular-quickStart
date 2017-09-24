@@ -3,8 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   template: `
-    <h1>Hola Mundo {{name}}</h1>
     <app-header></app-header>
+    <div class="row">
+        <left-component-navigation></left-component-navigation>
+        <rigth-component-content></rigth-component-content>
+    </div>
     <app-footer></app-footer>
   `,
 })
