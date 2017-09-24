@@ -4,7 +4,9 @@ import {Component} from '@angular/core';
   selector: 'rigth-component-content',
   template: `
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-     <p class="text_box">Rigth Content</p>
+     <p class="text_box">
+       <app-rest-component></app-rest-component>
+     </p>
   </div>
   `,
   styleUrls: [
