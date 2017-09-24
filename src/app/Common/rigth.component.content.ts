@@ -4,9 +4,12 @@ import {Component} from '@angular/core';
   selector: 'rigth-component-content',
   template: `
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-     Rigth Content
+     <p class="text_box">Rigth Content</p>
   </div>
-  `
+  `,
+  styleUrls: [
+    './rigth.component.css'
+  ]
 })
 
 export  class RigthComponentContent {

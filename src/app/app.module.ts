@@ -9,7 +9,12 @@ import  { RigthComponentContent } from './Common/rigth.component.content';
 
 @NgModule({
   imports:      [ BrowserModule ],
-  declarations: [ AppComponent, HeaderComponent, FootComponent, LeftComponentNavigation, RigthComponentContent ],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FootComponent,
+    LeftComponentNavigation,
+    RigthComponentContent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
